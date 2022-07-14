@@ -1,0 +1,18 @@
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none  ;
+}
+
+li a {
+  padding: 10px 20px 10px 0;
+  margin: 20px 0;
+  display: block;
+  font-weight: bold;
+}
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
