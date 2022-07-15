@@ -1,1 +1,7 @@
-<p>Component works!</p>
+<h1>Product Details</h1>
+
+<div *ngIf="product">
+  <h3>{{ product.name }}</h3>
+  <h4>{{ product.price | currency }}</h4>
+  <p>{{ product.description }}</p>
+</div>
